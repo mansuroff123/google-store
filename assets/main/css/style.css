@@ -169,10 +169,17 @@ body {
 }
 
 
-
-
-
 /* -------------------------- Gadgets Section End -------------------------- */
+
+
+
+/* -------------------------- Category Section Begin -------------------------- */
+.card_title {
+    color: #1967D2;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* -------------------------- Category Section End -------------------------- */
 
 
 
