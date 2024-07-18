@@ -183,6 +183,28 @@ body {
 
 
 
+/* -------------------------- Auth Section Begin -------------------------- */
+.text_responsive {
+    width: 40%;
+}
+/* -------------------------- Auth Section End -------------------------- */
+
+
+/* -------------------------- Footer Section Begin -------------------------- */
+.footer_link {
+    text-decoration: none;
+    color: #3C4043;
+    font-size: 14px;
+}
+.grey_line {
+    height: 1px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+/* -------------------------- Footer Section End -------------------------- */
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -198,7 +220,10 @@ body {
     }
     .my_border {
         border-radius: 0 0 2rem 2rem; 
-     }
+    }
+    .text_responsive {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -208,5 +233,8 @@ body {
     .nba_photo {
         width: 100%;
         height: auto;
+    }
+    .text_responsive {
+        width: 100%;
     }
 }
