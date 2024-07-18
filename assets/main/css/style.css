@@ -201,6 +201,12 @@ body {
     width: 100%;
     background-color: #F2F2F2;
 }
+
+.small_link {
+    color: #423F3F;
+    font-size: 14px;
+    text-decoration: none;
+}
 /* -------------------------- Footer Section End -------------------------- */
 
 
