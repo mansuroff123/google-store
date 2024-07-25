@@ -1,246 +1,62 @@
-/* roboto-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --grey: #3C4043;
-    --bg-color: #F8F9FA;
-    --pampas: #E9E3DB;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 16px;
+    font-weight: 400;
 }
 
-/* -------------------------- Home Section Begin -------------------------- */
-.bg_alert {
-    background: #1967D2;
-    text-align: center;
-    border-radius: 0;
-    color: #fff;
-    margin: 0;
-}
 
-.my_navbar .nav-link {
-    color: var(--grey);
-}
+/* ------------------ Home Section Begin ------------------ */
 
-.my_navbar .nav-link:hover {
-    color: #000;
-}
-
-.home_bg {
-    background: url("../images/home.png");
-    width: 100%;
-    height: calc(100vh - 122px);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.creative {
+    color: #FFE074;
+    font-size: 12px;
+    font-weight: 800;
 }
 
 .home_title {
-    color: var(--grey);
-    font-size: 57px;
+   color: #FFFFFF;
+   font-size: 62px;
+   font-weight: 800; 
+}
+
+.home_text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* ------------------ Home Section End ------------------ */
+
+
+
+/* ------------------ About Section Begin ------------------ */
+.gold_text {
+    color: #FFAE00;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.d_title {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .d_text {
-    color: var(--grey);
+    font-weight: 300;
 }
 
-.home_btn {
-    padding: 8px 20px;
-    color: var(--grey);
-    border: 2px solid var(--grey);
-    border-radius: 4px;
-    text-decoration: none;
-    transition: 0.4s;
+.play {
+    color: #F3849F;
+    font-weight: 700;
 }
+/* ------------------ About Section End ------------------ */
 
-.home_btn:hover {
-    background-color: var(--grey);
-    color: #fff;
-}
-
-.home_link {
-    color: var(--grey);
-    text-decoration: none;
-    padding: 8px 20px;
-}
-
-.home_link:hover {
-    color: #000;
-}
-
-/* -------------------------- Home Section End -------------------------- */
-
-
-/* -------------------------- Carousel Section Begin -------------------------- */
-.my_card {
-    background-color: var(--bg-color);
-    border-radius: 20px;
-}
-.new {
-    color: #1967D2;
-    font-size: 12px;
-}
-
-.my_container {
-    margin-left: 200px;
-}
-
-.product_group::-webkit-scrollbar {
-    height: 5px;
-}
-
-.product_group::-webkit-scrollbar-thumb {
-    background-color: #80868B;
-}
-
-
-/* -------------------------- Carousel Section End -------------------------- */
-
-
-
-/* -------------------------- NBA Section Begin -------------------------- */
-.pixel .row .col-12, .pixel .row .col-lg-6 {
-    padding: 0;
-}
-.holiday {
-    background-color: #F8F9FA;
-}
-
-.d_title2 {
-    color: var(--grey);
-    font-size: 32px;
-}
-.my_link {
-    color: #1967D2;
-    text-decoration: none;
-}
-
-.my_border {
-   border-radius: 0 2rem 2rem 0; 
-}
-/* -------------------------- NBA Section End -------------------------- */
-
-
-
-
-/* -------------------------- Gadgets Section Begin -------------------------- */
-
-.gadget_card{
-    background-color: var(--pampas);
-    border-radius: 28px;
-    padding: 30px 30px 0 30px;
-}
-
-.gadget_card_2{
-    background-color: #D6E2D8;
-    border-radius: 28px 28px 0 0;
-    padding: 20px 0 0 0;
-}
-
-.d_title_3{
-    font-size: 40px;
-    color: #3C4043;
-    text-align: center;
-}
-
-.learn_more{
-    text-decoration: none;
-    color: #202124;
-    border: 2px solid #5f6368;
-    padding: 0 20px;
-    transition: .4s;
-    border-radius: 4px;
-}
-
-.learn_more:hover{
-    background-color: #5f6368;
-    color: white;
-}
-
-
-/* -------------------------- Gadgets Section End -------------------------- */
-
-
-
-/* -------------------------- Category Section Begin -------------------------- */
-.card_title {
-    color: #1967D2;
-    font-size: 14px;
-    text-decoration: none;
-}
-/* -------------------------- Category Section End -------------------------- */
-
-
-
-/* -------------------------- Auth Section Begin -------------------------- */
-.text_responsive {
-    width: 40%;
-}
-/* -------------------------- Auth Section End -------------------------- */
-
-
-/* -------------------------- Footer Section Begin -------------------------- */
-.footer_link {
-    text-decoration: none;
-    color: #3C4043;
-    font-size: 14px;
-}
-.grey_line {
-    height: 1px;
-    width: 100%;
-    background-color: #F2F2F2;
-}
-
-.small_link {
-    color: #423F3F;
-    font-size: 14px;
-    text-decoration: none;
-}
-/* -------------------------- Footer Section End -------------------------- */
-
-
-
-
-
-@media screen and (max-width: 768px) {
-    .home_bg{
-        background-size: cover;
-        background-position: right;
-    }
-    .d_text, .home_title, .home_btn, .home_link{
-        color: black !important;
-    }
-    .my_container {
-        margin: 0;
-    }
-    .my_border {
-        border-radius: 0 0 2rem 2rem; 
-    }
-    .text_responsive {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .my_border {
-        border-radius: 0 0 2rem 2rem; 
-     }
-    .nba_photo {
-        width: 100%;
-        height: auto;
-    }
-    .text_responsive {
-        width: 100%;
-    }
-}
